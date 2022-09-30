@@ -1,0 +1,16 @@
+# PyTorch version used while writing code: 
+# torch == 1.12.1+cu116, torchaudio == 0.12.1+cu116, torchvision == 0.13.1+cu116
+# pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+
+matplotlib >= 3.6.0
+easyocr >= 1.6.2
+tensorboard >= 2.10.1
+tqdm >= 4.64.1
+scipy >= 1.9.1
+thop >= 0.1.1
+seaborn >= 0.12.0
+PyYAML >= 6.0
+xmltodict >= 0.13.0
+ipywidgets >= 8.0.2
+# pip uninstall -y opencv-python-headless
+# pip install --force-reinstall opencv-python

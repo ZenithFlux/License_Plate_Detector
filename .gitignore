@@ -1,0 +1,12 @@
+# ignore filenames starting with underscore except when ending with __.py
+_*
+!*__.py
+
+# dev folders
+/*env
+/dataset
+/yolov5
+
+# cache
+__pycache__
+.ipynb_checkpoints
