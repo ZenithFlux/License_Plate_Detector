@@ -10,3 +10,5 @@ _*
 # cache
 __pycache__
 .ipynb_checkpoints
+
+plate_detector.pt
