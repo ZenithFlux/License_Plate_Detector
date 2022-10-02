@@ -42,11 +42,14 @@ if __name__ == "__main__":
     path = input("Enter image path: ")
     save_folder = input("\nEnter save location for images of detected plates (Leave blank if you don't want to save):\n")
     
-    _, imgs, texts = detect_plate(path, MODEL_PATH, IMAGE_SIZE)
+    ren_img, imgs, texts = detect_plate(path, MODEL_PATH, IMAGE_SIZE)
+    
+    ren_img = cv2.cvtColor(ren_img, cv2.COLOR_RGB2BGR)
+    cv2.imwrite(os.path.join(save_folder, f"detections.jpg"), ren_img)
     
     print("\nLicense plate texts detected in image-")
-    for i in range(len(texts)):
+    for i in range(len(imgs)):
         print(texts[i])
         if save_folder:
             out = cv2.cvtColor(imgs[i], cv2.COLOR_RGB2BGR)
-            cv2.imwrite(os.path.join(save_folder, f"{i}.jpg"), out)
+            cv2.imwrite(os.path.join(save_folder, f"detection{i}.jpg"), out)

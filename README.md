@@ -4,21 +4,21 @@ This License plate detector can detect and read license plates, from images as w
 
 YOLO (You Only Look Once, Joseph Redmon et al.) is an exteremly fast and lightweight object detection algorithm highly preferred for live detection systems. [YOLOv5](https://github.com/ultralytics/yolov5/) is the PyTorch implementation of the yolo algorithm by Ultralytics.
 
-See the example images provided in the dropdown below. These detections are done using this program.
+See the example images provided below. These detections are done using this program.
+
+<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect1.jpg" title="Single Car" width=300 height=300>
 
 <details>
-<summary> Show Examples </summary>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect1.jpg" title="Single Car">
+<summary> Show More Examples </summary>
+<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect2.jpg" title="Cars in traffic" width=400 height=400>
 </br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect2.jpg" title="Cars in traffic">
+<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect3.jpg" title="Car park" width=400 height=400>
 </br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect3.jpg" title="Car park">
+<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect4.jpg" title="Image from Dashcam" width=400 height=400>
 </br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect4.jpg" title="Image from Dashcam">
+<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect5.jpg" title="Car in speed/Blurry Image" width=400 height=400>
 </br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect5.jpg" title="Car in speed/Blurry Image">
-</br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect6.jpg" title="Cartoon Car">
+<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect6.jpg" title="Cartoon Car" width=400 height=400>
 </details>
 </br>
 
@@ -40,7 +40,7 @@ pip install --force-reinstall opencv-python
 ```
 Ignore Errors produced by pip about *missing opencv-python-headless*.<br/><br/>
 
-3. Provide path to a YOLOv5 model file in *settings.py* file as MODEL_PATH.  
+3. Provide path to a trained YOLOv5 model file in *settings.py* file as MODEL_PATH.  
 Also set the IMAGE_SIZE on which the model was trained.  
 [Download](https://drive.google.com/file/d/1fZIv3KQ8nBUe6YhnQ2wtLd0TBgsLOifE/view?usp=sharing) model trained by me on 640x640 images or use any other YOLOv5 model.
 
