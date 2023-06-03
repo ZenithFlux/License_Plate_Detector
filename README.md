@@ -6,19 +6,19 @@ YOLO (You Only Look Once, Joseph Redmon et al.) is an exteremly fast and lightwe
 
 See the example images provided below. These detections are done using this program.
 
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect1.jpg" title="Single Car" width=300 height=300>
+<img src="https://i.ibb.co/Hqv3kLX/detect1.jpg" title="Single Car" width=300 height=300>
 
 <details>
 <summary> Show More Examples </summary>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect2.jpg" title="Cars in traffic" width=400 height=400>
+<img src="https://i.ibb.co/59BmgXn/detect2.jpg" title="Cars in traffic" width=400 height=400>
 </br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect3.jpg" title="Car park" width=400 height=400>
+<img src="https://i.ibb.co/WsgMP66/detect3.jpg" title="Car park" width=400 height=400>
 </br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect4.jpg" title="Image from Dashcam" width=400 height=400>
+<img src="https://i.ibb.co/zRTW0m2/detect4.jpg" title="Image from Dashcam" width=400 height=400>
 </br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect5.jpg" title="Car in speed/Blurry Image" width=400 height=400>
+<img src="https://i.ibb.co/ncqmppF/detect5.jpg" title="Car in speed/Blurry Image" width=400 height=400>
 </br></br>
-<img src="https://raw.githubusercontent.com/ZenithFlux/assets/main/license_plate_detector/detect6.jpg" title="Cartoon Car" width=400 height=400>
+<img src="https://i.ibb.co/HN9sGkS/detect6.jpg" title="Cartoon Car" width=400 height=400>
 </details>
 </br>
 
